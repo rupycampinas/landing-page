@@ -23,15 +23,21 @@ a:hover, a:focus{
   height: 400px;
   margin: 0 auto;
 }
+@media (max-width: 767px) {
+  #container{
+    margin-top: 100px;
+  }
+  #logo-wrapper{
+    height: 370px;
+  }
+}
 h1{
   font-size: 4.5em;
   margin: 20px 0;
 }
 #social{
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  margin-left: -48px;
+  width: 102px;
+  margin: 30px auto 10px auto;
 }
 .social{
   background: url('/images/social.png') 0 0;
