@@ -36,7 +36,7 @@ h1{
   margin: 20px 0;
 }
 #social{
-  width: 102px;
+  width: 105px;
   margin: 30px auto 10px auto;
 }
 .social{
@@ -48,6 +48,7 @@ h1{
 }
 .facebook{
   background-position: 0px 0px;
+  margin-right: 3px;
 }
 .twitter{
   background-position: 0px -116px;
