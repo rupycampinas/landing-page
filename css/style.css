@@ -1,0 +1,51 @@
+body{
+  background: #000000;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+}
+a{
+  color: #D9CCCD;
+  outline: none;
+  border: none;
+}
+a:hover, a:focus{
+  text-decoration: none;
+  color: #E1C1C3;
+  outline: none;
+}
+#container{
+  margin: 170px auto 0 auto;
+  text-align: center;
+}
+#logo-wrapper{
+  width: 245px;
+  height: 400px;
+  margin: 0 auto;
+}
+h1{
+  font-size: 4.5em;
+  margin: 20px 0;
+}
+#social{
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -48px;
+}
+.social{
+  background: url('/images/social.png') 0 0;
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  text-indent: -9999px;
+}
+.facebook{
+  background-position: 0px 0px;
+}
+.twitter{
+  background-position: 0px -116px;
+}
+/*.youtube{
+  background-position: 0px -58px;
+}*/
