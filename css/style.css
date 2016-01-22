@@ -1,92 +1,89 @@
-html, body{ 
-  min-width:100%;
-  width: 100%;
+*,
+*:before,
+*:after {
+    /* debug */
+    /*box-sizing: border-box;
+     border: 1px solid hotpink;*/
+    margin: 0 auto;
 }
-
-body{
-  background: #000000;
-  font-family: 'Raleway', sans-serif;
-  color: #ffffff;
-  font-size: 15px;
+html,
+body { min-height: 100%; }
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    background: #000;
+    background: url(../images/crew.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
-a{
-  color: #D9CCCD;
-  outline: none;
-  border: none;
+a {
+    color: #d9cccd;
+    border: none;
+    outline: none;
 }
-a:hover, a:focus{
-  text-decoration: none;
-  color: #E1C1C3;
-  outline: none;
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #E1C1C3;
+    outline: none;
 }
-#container{
-  margin: 80px auto 30px auto;
-  text-align: center;
-  background: url('../images/crew.jpg') center center;
-  height: 630px;
-  min-width: 100%;
-  padding-top: 30px;
+.container {
+    width: 100%;
+    height: auto;
+    text-align: center;
 }
-#logo-wrapper{
-  margin: 0 auto;
+.logo {
+    width: auto;
+    margin: 50px;
 }
-#logo-wrapper img {
-  margin: 0 auto;
+h1 {
+    font-size: 4.5em;
+    line-height: 70%;
+    margin: 20px 0;
 }
-h1{
-  font-size: 4.5em;
-  line-height: 110%;
-  margin: 20px 0;
-}
-#social{
-  width: 105px;
-  margin: 30px auto 10px auto;
-}
-.text-center {
-  text-align: center;
+.social {
+    width: 105px;
+    margin: 30px auto;
 }
 .last-edition {
-  position: absolute;
-  bottom: 10px;
-  width: 100%;
-  font-size: 0.8em;
+    font-weight: bold;
+    font-size: .8em;
+    bottom: 10px;
+    width: 100%;
 }
-.social{
-  background: url('../images/social.png') 0 0;
-  width: 48px;
-  height: 48px;
-  display: inline-block;
-  text-indent: -9999px;
+.icon {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    text-indent: -9999px;
+    background: url('../images/social.png') 0 0;
 }
-.facebook{
-  background-position: 0px 0px;
-  margin-right: 3px;
+.facebook {
+    margin-right: 3px;
+    background-position: 0 0;
 }
-.twitter{
-  background-position: 0px -116px;
-}
-.call-for-papers{
-  display: block;
-  background: url('../images/call_for_papers.png');
-  position: absolute;
-  top: 0;
-  right: 0;
-  text-indent: -9999px;
-  width: 140px;
-  height: 130px;
+.twitter { background-position: 0 -116px; }
+.call-for-papers {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 140px;
+    height: 130px;
+    text-indent: -9999px;
+    background: url('../images/call_for_papers.png');
 }
 @media only screen and (max-width: 800px) and (min-width: 320px) {
-  #container{
-    margin-top: 10%;
-    height: 700px;
-  }
-  h1 {
-    font-size: 2.9em;
-  }
-  .last-edition {
-    position: static;
-  }
+    .container {
+        height: 700px;
+        margin-top: 10%;
+    }
+    h1 { font-size: 2.9em; }
+    .last-edition { position: static; }
 }
-/*.youtube{
-  background-position: 0px -58px;
+/*.youtube {
+    background-position: 0px -58px;
 }*/
